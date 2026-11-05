@@ -577,7 +577,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "engg-math-core", git = "https://github.com/ShivtejG236/engg-math-infrastructure?subdirectory=packages%2Fcore&rev=ed62979978977e80bb25ef73e905fd28bab46c8e" },
-    { name = "networkx", specifier = ">=3.2" },
+    { name = "networkx", specifier = ">=3.3" },
 ]
 
 [package.metadata.requires-dev]
@@ -591,7 +591,7 @@ dev = [
     { name = "pytest-cov", specifier = ">=6.0" },
     { name = "ruff", specifier = ">=0.8" },
     { name = "twine", specifier = ">=6.0" },
-    { name = "types-networkx", specifier = ">=3.2" },
+    { name = "types-networkx", specifier = ">=3.3" },
 ]
 
 [[package]]
